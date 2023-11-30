@@ -79,6 +79,8 @@ dependencies {
     implementation("androidx.hilt:hilt-navigation-compose:1.1.0")
     // view Model
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
+    //LiveData
+    implementation("androidx.compose.runtime:runtime-livedata:1.5.4")
     // Retrofit
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
