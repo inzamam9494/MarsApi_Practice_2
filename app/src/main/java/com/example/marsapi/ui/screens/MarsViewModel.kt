@@ -28,12 +28,17 @@ class MarsViewModel @Inject constructor( private val getPhotoUseCase: GetPhotoUs
             try {
                 val photos = getPhotoUseCase()
                 _photos.value = photos
-                Log.d("MarsApiTest","Success ${photos.size} Mars Photo retrieved")
+                Log.d(TAG,"Success ${photos.size} Mars Photo retrieved")
             }
             catch (e:IOException){
                 failed
-                Log.d("MarsApiTest", failed)
+                Log.d(TAG, failed)
             }
         }
     }
+
+    companion object{
+        val TAG = "MarsApiTest"
+    }
+
 }
