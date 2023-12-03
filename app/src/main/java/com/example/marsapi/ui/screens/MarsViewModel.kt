@@ -38,7 +38,7 @@ class MarsViewModel @Inject constructor( private val getPhotoUseCase: GetPhotoUs
     }
 
     companion object{
-        val TAG = "MarsApiTest"
+        val TAG = "MarsApi"
     }
 
 }
