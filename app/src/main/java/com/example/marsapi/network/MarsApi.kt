@@ -8,3 +8,5 @@ interface MarsApi {
     @GET("photos")
     suspend fun getPhotos() : Response<List<MarsPhoto>>
 }
+
+// restart fir se
