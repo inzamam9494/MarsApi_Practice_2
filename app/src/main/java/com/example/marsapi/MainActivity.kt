@@ -26,7 +26,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting(marsViewModel= viewModel(),"Android")
+                    Greeting(marsViewModel= viewModel(),"Mars Api it's continued")
                 }
             }
         }
