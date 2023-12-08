@@ -6,3 +6,4 @@ data class MarsPhoto(
 )
 
 fun MarsPhoto.toMarsPhoto() = MarsPhoto(id, imgSrc)
+//continued
