@@ -26,7 +26,8 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting(marsViewModel= viewModel(),"Mars Api it's continued")
+                    Greeting(marsViewModel= viewModel(),
+                        "Mars Api it's continued")
                 }
             }
         }
@@ -36,7 +37,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(marsViewModel: MarsViewModel,name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello $name!",
+        text = name,
         modifier = modifier
     )
 }
