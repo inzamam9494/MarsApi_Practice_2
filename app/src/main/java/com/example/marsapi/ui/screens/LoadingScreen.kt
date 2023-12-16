@@ -13,7 +13,9 @@ import androidx.compose.ui.Modifier
 fun LoadingScreen() {
     Scaffold {
         Column(modifier = Modifier.padding(it)) {
+            Row {
 
+            }
         }
     }
 }
