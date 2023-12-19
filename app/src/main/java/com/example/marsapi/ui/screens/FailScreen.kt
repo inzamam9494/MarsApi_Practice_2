@@ -33,7 +33,7 @@ fun FailLoadingScreen() {
             )
             Text(text = "Fail to Load")
             Button(onClick = { /*TODO*/ }) {
-                Text(text = "Retry")
+                Text(text = "Reload")
             }
         }
     }
