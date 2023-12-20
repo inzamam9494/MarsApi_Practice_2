@@ -26,7 +26,7 @@ fun FailLoadingScreen() {
         modifier = Modifier
             .fillMaxSize(),
     ) {
-        Column {
+        Column(modifier = Modifier.fillMaxSize()) {
             Image(
                 painter = painterResource(id = R.drawable.ic_connection_error),
                 contentDescription = "Fail to Load"
